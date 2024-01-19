@@ -3,11 +3,11 @@ import Link from "next/link";
 import Card from "@/components/core/Card/Card";
 import Form from "@/components/core/Form/Form";
 
-import FormTitle from "@/components/forms/FormTitle/FormTitle";
-import Input from "@/components/forms/Input/Input";
 import InputWrapper from "@/components/forms/InputWrapper/InputWrapper";
-import Button from "@/components/forms/Button/Button";
+import FormTitle from "@/components/forms/FormTitle/FormTitle";
 import InputText from "@/components/forms/InputText/InputText";
+import Button from "@/components/forms/Button/Button";
+import Input from "@/components/forms/Input/Input";
 
 export default function SignInCard() {
     return (
@@ -47,6 +47,7 @@ export default function SignInCard() {
                     <InputText
                         text="Don't have an account?"
                         link="Register here!"
+                        href="/register"
                     />
                 </div>
             </Form>
